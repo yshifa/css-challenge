@@ -1,33 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.google.com/specimen/Josefin+Sans" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>CSS-TWO</title>
-</head>
-<body class="container">
-    <div class="logo">
-        <img src="images/logo.svg" alt="">  
+  </head>
+  <body class="body-content">
+    <div class="main">
+      <header>
+        <img class="logo" src="images/logo.svg" alt="base apparel logo" />
+      </header>
+
+      <img
+        class="hero-image"
+        src="images/hero-mobile.jpg"
+        alt="hero image mobile"
+      />
+
+      <section>
+        <h1>
+          <span class="heading">we're </span><br />
+          coming <br />
+          soon <br />
+        </h1>
+        <p>
+          Hello fellow shoppers! We're currently building our new fashion store.
+          Add your email below to stay up to date with announcements and our
+          launch deals.
+        </p>
+
+        <form>
+          <input type="email" placeholder="Email Address" class="email-input" />
+          <button class="btn">
+            <img src="images/icon-arrow.svg" alt="arrow icon" />
+          </button>
+        </form>
+      </section>
     </div>
-    <div class="image-1">
-        <img src="images/hero-mobile.jpg" alt="">
-    </div>
-        <img class="image-2" src="images/hero-desktop.jpg" alt="">
-        <div class="body-content">
-            <div class="box">
-                <h1>WE'RE <br> <span> COMING <br> SOON</span></h1>
-                <p>Hello fellow shoppers! We're currently building
-                 our new fashion store.<br> Add your email below to 
-                  stay up-to-date with announcement and our 
-                  launch deals.</p>
-                  <div>
-                    <input  class="footer" type="email" placeholder="Email Address">
-                    <button class="button"><a class="btn"><img src="images/icon-arrow.svg" alt=""></a></button>    
-                   </div>      
-            </div>      
-        </div>          
-</body>
+    <div class="hero-image-desktop"></div>
+  </body>
 </html>
