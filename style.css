@@ -93,8 +93,9 @@ form {
     display: flex;
   }
   .main {
-    width: 50%;
+    width: 100%;
   }
+
   .hero-image-desktop {
     background: url("../images/hero-desktop.jpg") no-repeat;
     height: 100vh;
